@@ -2,11 +2,11 @@
   "name": "Flare - S",
   "box": "-10 -10 120 120",
   "invertY": 100,
-  "sortOrder": 3,
+  "sortOrder": 4,
   "corners": [
     {
       "id": "ne",
-      "orientation": "",
+      "orientation": "ne",
       "coordinate": {
         "x": 100,
         "y": 100
@@ -14,7 +14,7 @@
     },
     {
       "id": "nw",
-      "orientation": "",
+      "orientation": "nw",
       "coordinate": {
         "x": 0,
         "y": 100
@@ -22,39 +22,39 @@
     },
     {
       "id": "sw",
-      "orientation": "",
+      "orientation": "sw",
       "coordinate": {
         "x": 0,
         "y": 20
       }
     },
     {
-      "id": "int-flare-1",
-      "orientation": "",
+      "id": "f-int-1",
+      "orientation": null,
       "coordinate": {
         "x": 30,
         "y": 20
       }
     },
     {
-      "id": "sw-flare",
-      "orientation": "",
+      "id": "f-sw",
+      "orientation": "sw",
       "coordinate": {
         "x": 30,
         "y": 0
       }
     },
     {
-      "id": "se-flare",
-      "orientation": "",
+      "id": "f-se",
+      "orientation": "se",
       "coordinate": {
         "x": 70,
         "y": 0
       }
     },
     {
-      "id": "int-flare-2",
-      "orientation": "",
+      "id": "f-int-2",
+      "orientation": null,
       "coordinate": {
         "x": 70,
         "y": 20
@@ -62,7 +62,7 @@
     },
     {
       "id": "se",
-      "orientation": "",
+      "orientation": "se",
       "coordinate": {
         "x": 100,
         "y": 20
@@ -73,9 +73,11 @@
     ["ne","nw"],
     ["nw","sw"],
     ["sw","se"],
-    ["int-flare-1","sw-flare"],
-    ["sw-flare","se"],
-    ["se-flare","ne"],
+    ["f-int-1","f-sw"],
+    ["f-sw","nw"],
+    ["f-sw","se"],
+    ["f-se","ne"],
+    ["f-se","sw"],
     ["se","ne"]
   ]
 }

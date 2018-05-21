@@ -21,8 +21,12 @@ const IndexPage = ({ data }) => {
   const cards = roofs.map(roof => <RoofCard roof={roof} key={roof.key} />)
   return (
     <main>
-      {cards}
-      <Rules />
+      <div className="cardGrid">
+        {cards}
+      </div>
+      <div className="cardGrid">
+        <Rules />
+      </div>
     </main>
   )
 }

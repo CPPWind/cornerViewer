@@ -13,7 +13,7 @@
       }
     },
     {
-      "id": "crook-nw",
+      "id": "c-nw",
       "orientation": "nw",
       "coordinate": {
         "x": 80,
@@ -21,8 +21,8 @@
       }
     },
     {
-      "id": "crook-int",
-      "orientation": "",
+      "id": "c-int",
+      "orientation": null,
       "coordinate": {
         "x": 80,
         "y": 80
@@ -60,15 +60,11 @@
     ],
     [
       "ne",
-      "crook-nw"
+      "c-nw"
     ],
     [
-      "crook-int",
-      "crook-nw"
-    ],
-    [
-      "crook-int",
-      "nw"
+      "c-nw",
+      "c-int"
     ],
     [
       "nw",

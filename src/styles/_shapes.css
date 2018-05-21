@@ -12,7 +12,7 @@ polygon {
 .corner1 {
   fill: red;
   stroke: red;
-  color: red;
+  color: var(--light-red);
 }
 
 .corner2 {
@@ -22,9 +22,9 @@ polygon {
 }
 
 .corner3 {
-  fill: green;
-  stroke: green;
-  color: green;
+  fill: lightgreen;
+  stroke: lightgreen;
+  color: lightgreen;
 }
 
 .corner4 {

@@ -1,3 +1,4 @@
+import smoother from './Smoother'
 
 class Roof {
   constructor({ name, invertY, box, corners, expected }) {
@@ -9,9 +10,28 @@ class Roof {
       invertY: invertY,
       box: box,
       key: this.key,
+      endpoints: { NorthSouth: null, EastWest: null },
     }
     this.props.corners = this.processCorners(corners)
+    this.props.walls = this.processWalls(corners)
     this.props.expected = this.processExpected(expected)
+    this.props.results = this.processResults()
+  }
+
+  processWalls() {
+    return smoother(this.props.corners)
+  }
+
+  processResults() {
+    this.expectedIds.forEach((id, idx) => {
+      if (this.wallIds.includes(id)) {
+        this.props.expected[idx].result = '✔'
+        this.props.expected[idx].resultTheme = 'success'
+      } else {
+        this.props.expected[idx].result = 'X'
+        this.props.expected[idx].resultTheme = 'danger'
+      }
+    })
   }
 
   processCorners(corners) {
@@ -21,15 +41,28 @@ class Roof {
     })
   }
 
+  get wallIds() {
+    return this.props.walls.map(w=>w.id)
+  }
+
+  get expectedIds() {
+    return this.props.expected.map(e => {
+      return [e.orig.id, e.dest.id].sort().join('+')
+    })
+  }
+
   processExpected(expected) {
     return expected.map((exp, idx) => {
+      const sorted = exp.sort()
       const data = {
-        orig: this.corners[exp[0]],
-        dest: this.corners[exp[1]],
+        orig: this.corners[sorted[0]],
+        dest: this.corners[sorted[1]],
         order: idx,
 
         result: '?',
+        resultTheme: 'warning'
       }
+      data.id = [data.orig.id,data.dest.id].sort().join('+')
       data.key = `expected-${data.orig.key}-${data.dest.key}-${idx}`
       return data
     })

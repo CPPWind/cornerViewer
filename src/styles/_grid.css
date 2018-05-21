@@ -1,4 +1,4 @@
-main {
+.cardGrid {
   padding: var(--spacing-extra-small, .25rem);
   height: 100%;
   display: flex;
@@ -9,15 +9,11 @@ main {
   align-items: stretch;
 }
 
-main > * {
+.cardGrid > * {
   flex: 0 1 var(--card-width);
   align-self: auto;
   margin-top: var(--spacing-medium, 1rem);
   margin-bottom: var(--spacing-medium, 1rem);
-
-}
-
-article {
 
 }
 

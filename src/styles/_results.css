@@ -2,13 +2,36 @@
   margin: var(--spacing-small, .5rem);
   display: grid;
   grid-gap: var(--spacing-extra-small);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .results > * {
-  background-color: var(--white-20, rgba(0, 0, 0, .2));
+  background-color: var(--gray);
   border-radius: var(--border-radius-3, .5rem);
   margin: var(--spacing-none, 0);
   height: 1.25rem;
+  text-align: left;
+  padding-left: var(--spacing-medium, 1rem);
 
+}
+
+.results .success {
+  color: var(--brand-success);
+  font-weight: bolder;
+  float: right;
+  padding-right: var(--spacing-medium, 1rem);
+}
+
+.results .danger {
+  color: var(--brand-danger);
+  font-weight: bold;
+  float: right;
+  padding-right: var(--spacing-medium, 1rem);
+}
+
+.results .warning {
+  color: var(--brand-warning);
+  font-weight: bold;
+  float: right;
+  padding-right: var(--spacing-medium, 1rem);
 }

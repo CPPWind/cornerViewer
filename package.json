@@ -2,7 +2,7 @@
   "name": "cornersDemo",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-   "author": "Scott M Parrish <scottp@cppwind.com>",
+  "author": "Scott M Parrish <scottp@cppwind.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
@@ -11,6 +11,7 @@
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-json": "^1.0.18",
+    "lodash": "^4.17.10",
     "react-helmet": "^5.2.0",
     "typography-theme-alton": "^0.15.10",
     "typography-theme-github": "^0.15.10"

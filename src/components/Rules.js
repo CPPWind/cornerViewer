@@ -4,7 +4,7 @@ import Card from './Card'
 const Rules = () => {
 
   return [
-    <Card title={'Basic Terms'} key="RuleCornerTermCard"
+    <Card title={'Basic Terms'} key="RuleCard1"
           subtitle={'corners'}>
       <dl>
         <dt>Corners</dt>
@@ -18,7 +18,7 @@ const Rules = () => {
       </dl>
     </Card>,
 
-    <Card title={'Basic Terms (cont)'} key="RuleOtherTermCard"
+    <Card title={'Basic Terms (cont)'} key="RuleCard2"
           subtitle={'other'}>
       <dl>
         <dt>Order</dt>
@@ -30,7 +30,7 @@ const Rules = () => {
       </dl>
     </Card>,
 
-    <Card title={'Oriented Pairs'} key="RuleOneCard"
+    <Card title={'Oriented Pairs'} key="RuleCard3"
           subtitle={'corners'}>
       <dl>
         <dt>NE corner walls</dt>
@@ -43,7 +43,7 @@ const Rules = () => {
         <dd>End on SW, NE, or Interior</dd>
       </dl>
     </Card>,
-    <Card title={'Expected Axis'} key="RuleTwoCard"
+    <Card title={'Expected Axis'} key="RuleCard4"
           subtitle={'Given Corners A,B,C,D,E,F.'}>
       <dl>
         <dt>Corner C searches forward</dt>
@@ -52,13 +52,13 @@ const Rules = () => {
         <dd>The Axis of BA will be used to check F,E,D,C </dd>
       </dl>
     </Card>,
-    <Card title={'Interior Corners'} key={"RuleThreeCard"}
+    <Card title={'Interior Corners'} key={"RuleCard5"}
           subtitle={'{orientation=\'\'}'}>
       <p>
       Interior corners will be checked as Candidates, but will not be Masters
       </p>
     </Card>,
-    <Card title={'delta < height / 2'} key={"RuleFourCard"}
+    <Card title={'delta < height / 2'} key={"RuleCard6"}
           subtitle={'Small deltas in relation to height / 2'}>
       <dl>
         <dt>EastWest Axis</dt>
@@ -68,7 +68,7 @@ const Rules = () => {
       </dl>
     </Card>,
 
-    <Card title={'Check All Candidates'} key={"RuleFourCard"}
+    <Card title={'Check All Candidates'} key={"RuleCard7"}
           subtitle={"The Last appropriate candidate is used"}>
       <ul>
         <li>Next Corner used if no other candidate found</li>

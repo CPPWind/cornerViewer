@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": "se-crook",
+      "id": "c-se",
       "orientation": "se",
       "coordinate": {
         "x": 80,
@@ -37,8 +37,8 @@
       }
     },
     {
-      "id": "int-crook",
-      "orientation": "",
+      "id": "c-int",
+      "orientation": null,
       "coordinate": {
         "x": 80,
         "y": 20
@@ -67,11 +67,15 @@
       "se"
     ],
     [
-      "se-crook",
+      "sw",
+      "c-se"
+    ],
+    [
+      "c-se",
       "ne"
     ],
     [
-      "int-crook",
+      "c-int",
       "se"
     ],
     [

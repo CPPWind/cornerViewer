@@ -2,11 +2,11 @@
   "name": "Notch - W",
   "box": "-10 -10 120 120",
   "invertY": 100,
-  "sortOrder": 4,
+  "sortOrder": 3,
   "corners": [
     {
       "id": "ne",
-      "orientation": "",
+      "orientation": "ne",
       "coordinate": {
         "x": 100,
         "y": 100
@@ -14,39 +14,39 @@
     },
     {
       "id": "nw",
-      "orientation": "",
+      "orientation": "nw",
       "coordinate": {
         "x": 0,
         "y": 100
       }
     },
     {
-      "id": "sw-notch",
-      "orientation": "",
+      "id": "n-sw",
+      "orientation": "sw",
       "coordinate": {
         "x": 0,
         "y": 70
       }
     },
     {
-      "id": "int-notch-1",
-      "orientation": "",
+      "id": "n-int-1",
+      "orientation": null,
       "coordinate": {
         "x": 20,
         "y": 70
       }
     },
     {
-      "id": "int-notch-2",
-      "orientation": "",
+      "id": "n-int-2",
+      "orientation": null,
       "coordinate": {
         "x": 20,
         "y": 30
       }
     },
     {
-      "id": "nw-notch",
-      "orientation": "",
+      "id": "n-nw",
+      "orientation": "nw",
       "coordinate": {
         "x": 0,
         "y": 30
@@ -54,7 +54,7 @@
     },
     {
       "id": "sw",
-      "orientation": "",
+      "orientation": "sw",
       "coordinate": {
         "x": 0,
         "y": 0
@@ -62,7 +62,7 @@
     },
     {
       "id": "se",
-      "orientation": "",
+      "orientation": "se",
       "coordinate": {
         "x": 100,
         "y": 0
@@ -72,9 +72,10 @@
   "expected": [
     ["ne","nw"],
     ["nw","sw"],
-    ["sw-notch","int-notch-1"],
-    ["int-notch-2","nw-notch"],
-    ["nw-notch","sw"],
+    ["n-sw","n-int-1"],
+    ["n-int-2","n-nw"],
+    ["n-nw","sw"],
+    ["n-sw","nw"],
     ["sw","se"],
     ["se","ne"]
   ]

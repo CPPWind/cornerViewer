@@ -10,8 +10,11 @@
 @import '_results.css';
 /*@import './tachyons/_debug.css';*/
 
-html, body, main, body > *, #siteWrapper {
+html, body, body > *, #siteWrapper {
   height: 100%;
+}
+html, body, body > *, #siteWrapper, main  {
+  min-height: 100%;
   width: 100%;
 }
 
