@@ -1,0 +1,58 @@
+{
+  "name": "Rectangle",
+  "sortOrder": 0,
+  "box": "-10 -10 120 120",
+  "invertY": 100,
+  "corners": [
+    {
+      "id": "ne",
+      "orientation": "ne",
+      "coordinate": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 0,
+        "y": 100
+      }
+    },
+    {
+      "id": "sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 100,
+        "y": 0
+      }
+    }
+  ],
+  "expected": [
+    [
+      "ne",
+      "nw"
+    ],
+    [
+      "nw",
+      "sw"
+    ],
+    [
+      "sw",
+      "se"
+    ],
+    [
+      "se",
+      "ne"
+    ]
+  ]
+}

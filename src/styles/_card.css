@@ -1,0 +1,60 @@
+.card {
+  background-color: var(--color-card-bg);
+  color: var(--color-card);
+  border: thin solid var(--color-card-border);
+  border-radius: var(--border-radius-3, .5rem);
+  width: var(--measure);
+  padding: var(--spacing-none, 0);
+}
+
+
+.card > header {
+  padding-top: var(--spacing-extra-small, .25rem);
+  padding-bottom: var(--spacing-extra-small, .25rem);
+  background-color: var(--color-card-header-bg);
+  color: var(--color-card-header);
+}
+
+.card > header > h2,
+.card > header > h3 {
+  font-size: var(--font-size-5, 1rem);
+  font-weight: 400;
+  text-align: center;
+  margin: var(--spacing-none, 0);
+  padding: var(--spacing-none, 0);
+}
+
+.card > header > h3 {
+  font-size: var(--font-size-6, .875rem);
+  font-style: italic;
+
+}
+
+
+.card > svg {
+  width: 100%;
+
+}
+
+
+.card > figure, .card > figure > svg {
+  width: 100%;
+  margin: var(--spacing-none, 0);
+  padding: var(--spacing-small, .5rem);
+}
+
+.card > ul, .card > dl, .card > p {
+  list-style: none;
+  margin: var(--spacing-none, 0);
+  padding: var(--spacing-small, .5rem);
+  font-size: var(--font-size-6, .875rem);
+}
+
+li {
+  text-align: center;
+
+}
+li > span:last-child {
+  padding-left: var(--spacing-medium, 1rem);
+}
+

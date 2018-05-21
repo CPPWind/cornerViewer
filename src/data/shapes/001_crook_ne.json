@@ -1,0 +1,86 @@
+{
+  "name": "Crook - NE",
+  "sortOrder": 1,
+  "box": "-10 -10 120 120",
+  "invertY": 100,
+  "corners": [
+    {
+      "id": "ne",
+      "orientation": "ne",
+      "coordinate": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "crook-nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 80,
+        "y": 100
+      }
+    },
+    {
+      "id": "crook-int",
+      "orientation": "",
+      "coordinate": {
+        "x": 80,
+        "y": 80
+      }
+    },
+    {
+      "id": "nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 0,
+        "y": 80
+      }
+    },
+    {
+      "id": "sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 100,
+        "y": 0
+      }
+    }
+  ],
+  "expected": [
+    [
+      "ne",
+      "nw"
+    ],
+    [
+      "ne",
+      "crook-nw"
+    ],
+    [
+      "crook-int",
+      "crook-nw"
+    ],
+    [
+      "crook-int",
+      "nw"
+    ],
+    [
+      "nw",
+      "sw"
+    ],
+    [
+      "se",
+      "sw"
+    ],
+    [
+      "ne",
+      "se"
+    ]
+  ]
+}

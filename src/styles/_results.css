@@ -1,0 +1,14 @@
+.results {
+  margin: var(--spacing-small, .5rem);
+  display: grid;
+  grid-gap: var(--spacing-extra-small);
+  grid-template-columns: 1fr 1fr;
+}
+
+.results > * {
+  background-color: var(--white-20, rgba(0, 0, 0, .2));
+  border-radius: var(--border-radius-3, .5rem);
+  margin: var(--spacing-none, 0);
+  height: 1.25rem;
+
+}

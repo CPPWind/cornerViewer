@@ -1,0 +1,14 @@
+#pageHeader {
+  background-color: var(--color-header-bg);
+  color: var(--color-header);
+  text-align: center;
+  padding-top: var(--spacing-small, .5rem);
+  padding-bottom: var(--spacing-small, .5rem);
+}
+
+#pageHeader > h1 {
+  font-size: var(--font-size-3);
+  margin: var(--spacing-none, 0);
+  padding: var(--spacing-none, 0);
+}
+

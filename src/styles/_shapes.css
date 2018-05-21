@@ -1,0 +1,64 @@
+polygon {
+  fill: var(--black-20);
+  stroke: var(--near-white);
+}
+
+.corner0 {
+  fill: white;
+  stroke: white;
+  color: white;
+}
+
+.corner1 {
+  fill: red;
+  stroke: red;
+  color: red;
+}
+
+.corner2 {
+  fill: blue;
+  stroke: blue;
+  color: blue;
+}
+
+.corner3 {
+  fill: green;
+  stroke: green;
+  color: green;
+}
+
+.corner4 {
+  fill: yellow;
+  stroke: yellow;
+  color: yellow;
+}
+
+.corner5 {
+  fill: aqua;
+  stroke: aqua;
+  color: aqua;
+}
+
+.corner6 {
+  fill: purple;
+  stroke: purple;
+  color: purple;
+}
+
+.corner7 {
+  fill: orange;
+  stroke: orange;
+  color: orange;
+}
+
+.corner8 {
+  fill: pink;
+  stroke: pink;
+  color: pink;
+}
+
+.corner9 {
+  fill: black;
+  stroke: black;
+  color: black;
+}

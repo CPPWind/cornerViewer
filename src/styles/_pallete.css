@@ -1,0 +1,20 @@
+
+:root {
+  --cpp_blue_light: #c5d4e6;
+  --cpp_blue_med: #5b87ba;
+  --cpp_blue_dark: #16549d;
+
+  --color-header: var(--near-white);
+  --color-header-bg: var(--cpp_blue_dark);
+
+  --color-main: var(--near-black);
+  --color-main-bg: var(--cpp_blue_light);
+
+  --color-card-header: var(--near-black);
+  --color-card-header-bg: var(--cpp_blue_med);
+
+  --color-card: var(--near-black);
+  --color-card-bg: var(--black-20);
+  --color-card-border: var(--cpp_blue_dark);
+}
+

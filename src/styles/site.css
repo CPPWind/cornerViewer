@@ -1,0 +1,20 @@
+@import 'tachyons.css';
+
+@import '_variables.css';
+@import '_pallete.css';
+
+@import '_grid.css';
+@import '_header.css';
+@import '_card.css';
+@import '_shapes.css';
+@import '_results.css';
+/*@import './tachyons/_debug.css';*/
+
+html, body, main, body > *, #siteWrapper {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-color: var(--color-main-bg);
+}
