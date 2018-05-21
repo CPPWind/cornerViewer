@@ -1,0 +1,13 @@
+{
+    "repositoryMetadata": {
+        "Arn": "arn:aws:codecommit:us-west-2:057683759097:cornersDemo",
+        "creationDate": 1526883030.958,
+        "cloneUrlHttp": "https://git-codecommit.us-west-2.amazonaws.com/v1/repos/cornersDemo",
+        "repositoryName": "cornersDemo",
+        "accountId": "057683759097",
+        "repositoryId": "b7a6bd2a-2161-4860-8fc8-325ba2f87adb",
+        "cloneUrlSsh": "ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/cornersDemo",
+        "repositoryDescription": "Gatsby default starter",
+        "lastModifiedDate": 1526883030.958
+    }
+}
