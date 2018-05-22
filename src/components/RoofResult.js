@@ -2,7 +2,6 @@ import React from 'react'
 import _differenceBy from 'lodash/differenceBy'
 
 const RoofResult = ({ roof }) => {
-  console.log(roof.walls)
   const results = roof.expected.map((props) => {
     const { orig, dest, key, result, resultTheme } = props
     return (
@@ -16,9 +15,7 @@ const RoofResult = ({ roof }) => {
   })
 
   const missing = _differenceBy(roof.walls, roof.expected,'id')
-  console.log('missing',missing)
   const walls = missing.map(w => {
-    console.log('w',w)
     return (<li key={w.key}>
       <span className={w.orig.theme}>{w.orig.id}</span>
       <span>+</span>

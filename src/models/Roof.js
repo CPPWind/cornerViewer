@@ -19,7 +19,8 @@ class Roof {
   }
 
   processWalls() {
-    return smoother(this.props.corners)
+    const s = smoother(this.props.corners)
+    return s
   }
 
   processResults() {

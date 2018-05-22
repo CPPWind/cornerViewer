@@ -77,9 +77,6 @@ const Rules = () => {
         <li></li>
       </ul>
     </Card>,
-
-
-
   ]
 }
 
