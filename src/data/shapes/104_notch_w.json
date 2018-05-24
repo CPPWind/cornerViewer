@@ -1,0 +1,82 @@
+{
+  "name": "Notch - W",
+  "box": "-10 -10 120 120",
+  "invertY": 100,
+  "sortOrder": 3,
+  "corners": [
+    {
+      "id": "ne",
+      "orientation": "ne",
+      "coordinate": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 0,
+        "y": 100
+      }
+    },
+    {
+      "id": "n-sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 0,
+        "y": 70
+      }
+    },
+    {
+      "id": "n-int-1",
+      "orientation": null,
+      "coordinate": {
+        "x": 20,
+        "y": 70
+      }
+    },
+    {
+      "id": "n-int-2",
+      "orientation": null,
+      "coordinate": {
+        "x": 20,
+        "y": 30
+      }
+    },
+    {
+      "id": "n-nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 0,
+        "y": 30
+      }
+    },
+    {
+      "id": "sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 100,
+        "y": 0
+      }
+    }
+  ],
+  "expected": [
+    ["ne","nw"],
+    ["nw","sw"],
+    ["n-sw","n-int-1"],
+    ["n-int-2","n-nw"],
+    ["n-nw","sw"],
+    ["n-sw","nw"],
+    ["sw","se"],
+    ["se","ne"]
+  ]
+}

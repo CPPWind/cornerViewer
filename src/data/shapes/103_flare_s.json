@@ -1,0 +1,93 @@
+{
+  "name": "Flare - S",
+  "box": "-10 -10 120 120",
+  "invertY": 100,
+  "sortOrder": 4,
+  "corners": [
+    {
+      "id": "ne",
+      "orientation": "ne",
+      "coordinate": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 0,
+        "y": 100
+      }
+    },
+    {
+      "id": "sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 0,
+        "y": 20
+      }
+    },
+    {
+      "id": "f-int-1",
+      "orientation": null,
+      "coordinate": {
+        "x": 30,
+        "y": 20
+      }
+    },
+    {
+      "id": "f-sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 30,
+        "y": 0
+      }
+    },
+    {
+      "id": "f-se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 70,
+        "y": 0
+      }
+    },
+    {
+      "id": "f-int-2",
+      "orientation": null,
+      "coordinate": {
+        "x": 70,
+        "y": 20
+      }
+    },
+    {
+      "id": "se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 100,
+        "y": 20
+      }
+    }
+  ],
+  "expected": [
+    ["ne","nw"],
+    ["nw","sw"],
+    ["sw","se"],
+    ["f-sw","nw"],
+    ["f-sw","se"],
+    ["f-se","ne"],
+    ["f-se","sw"],
+    ["se","ne"]
+  ],
+
+  "expectedTall": [
+    ["ne","nw"],
+    ["nw","sw"],
+    ["f-int-1","sw"],
+    ["f-int-1","f-sw"],
+    ["f-sw","f-se"],
+    ["f-int-2","f-se"],
+    ["f-int-2","se"],
+    ["ne","se"]
+  ]
+}

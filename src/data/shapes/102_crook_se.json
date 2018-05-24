@@ -1,0 +1,82 @@
+{
+  "name": "Crook - SE",
+  "box": "-10 -10 120 120",
+  "invertY": 100,
+  "sortOrder": 2,
+  "corners": [
+    {
+      "id": "ne",
+      "orientation": "ne",
+      "coordinate": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "nw",
+      "orientation": "nw",
+      "coordinate": {
+        "x": 0,
+        "y": 100
+      }
+    },
+    {
+      "id": "sw",
+      "orientation": "sw",
+      "coordinate": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "c-se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 80,
+        "y": 0
+      }
+    },
+    {
+      "id": "c-int",
+      "orientation": null,
+      "coordinate": {
+        "x": 80,
+        "y": 20
+      }
+    },
+    {
+      "id": "se",
+      "orientation": "se",
+      "coordinate": {
+        "x": 100,
+        "y": 20
+      }
+    }
+  ],
+  "expected": [
+    [
+      "ne",
+      "nw"
+    ],
+    [
+      "nw",
+      "sw"
+    ],
+    [
+      "sw",
+      "se"
+    ],
+    [
+      "sw",
+      "c-se"
+    ],
+    [
+      "c-se",
+      "ne"
+    ],
+    [
+      "se",
+      "ne"
+    ]
+  ]
+}
