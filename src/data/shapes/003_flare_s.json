@@ -73,11 +73,21 @@
     ["ne","nw"],
     ["nw","sw"],
     ["sw","se"],
-    ["f-int-1","f-sw"],
     ["f-sw","nw"],
     ["f-sw","se"],
     ["f-se","ne"],
     ["f-se","sw"],
     ["se","ne"]
+  ],
+
+  "expectedTall": [
+    ["ne","nw"],
+    ["nw","sw"],
+    ["f-int-1","sw"],
+    ["f-int-1","f-sw"],
+    ["f-sw","f-se"],
+    ["f-int-2","f-se"],
+    ["f-int-2","se"],
+    ["ne","se"]
   ]
 }

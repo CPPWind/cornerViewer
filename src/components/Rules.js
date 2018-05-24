@@ -27,6 +27,10 @@ const Rules = () => {
         <dd>The Axis of the wall: NorthSouth or EastWest</dd>
         <dt>Expected Axis</dt>
         <dd>The axis of the wall from Master to Next</dd>
+        <dt>Orientation</dt>
+        <dd>The Ordinal Direction of corner</dd>
+        <dt>Interior</dt>
+        <dd>The corner is not exposed</dd>
       </dl>
     </Card>,
 
