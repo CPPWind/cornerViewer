@@ -1,6 +1,7 @@
 {
-  "name": "Rectangle",
+  "name": "Rectangle - High",
   "sortOrder": 0,
+  "lh2": 100,
   "box": "-10 -10 120 120",
   "invertY": 100,
   "corners": [

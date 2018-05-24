@@ -31,16 +31,12 @@ const delta = (master, candidate, axis) => {
 
 const actualDirection = (master, candidate, axis) => {
   if (axis === 'NorthSouth' && (master.y > candidate.y)) {
-    console.log('actualDirection', 'south')
     return 'South'
   } else if (axis === 'NorthSouth' && (master.y <= candidate.y)) {
-    console.log('actualDirection', 'north')
     return 'North'
   } else if (axis === 'EastWest' && (master.x > candidate.x)) {
-    console.log('actualDirection', 'east')
     return 'East'
   } else {
-    console.log('actualDirection','west')
     return 'West'
   }
 }
@@ -94,16 +90,6 @@ const smoothCorner = (corners, idx, reverse = false) => {
       }
     })
 
-    console.log({
-      master: master.id,
-      axis,
-      direction,
-      reverse: reverse ? 'reverse' : 'forward',
-      match: byLengths [byLengths.length - 1].id,
-      candidates: candidates.map(c => c.id),
-      lengthsX: byLengths.map(c => [c.id,deltaX(master,c)]),
-      lengthsY: byLengths.map(c => [c.id,deltaY(master,c)])
-    })
     match = byLengths.pop()
   } else {
     match = remaining[0]
@@ -130,7 +116,6 @@ const smoothCorner = (corners, idx, reverse = false) => {
 
 
 function smoother(corners) {
-  console.log('==========')
   return _uniq(_flattenDepth(corners.map((c, idx) => {
       return [
         smoothCorner(corners, idx),

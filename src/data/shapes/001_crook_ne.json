@@ -1,6 +1,7 @@
 {
   "name": "Crook - NE",
   "sortOrder": 1,
+  "lh2": 50,
   "box": "-10 -10 120 120",
   "invertY": 100,
   "corners": [

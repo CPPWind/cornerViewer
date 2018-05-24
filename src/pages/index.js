@@ -24,9 +24,6 @@ const IndexPage = ({ data }) => {
       <div className="cardGrid">
         {cards}
       </div>
-      <div className="cardGrid">
-        <Rules />
-      </div>
     </main>
   )
 }

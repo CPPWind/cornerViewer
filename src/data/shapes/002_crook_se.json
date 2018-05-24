@@ -2,6 +2,7 @@
   "name": "Crook - SE",
   "box": "-10 -10 120 120",
   "invertY": 100,
+  "lh2": 50,
   "sortOrder": 2,
   "corners": [
     {
