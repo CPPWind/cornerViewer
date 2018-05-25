@@ -1,9 +1,9 @@
 {
   "name": "Flare - S - High",
   "box": "-10 -10 120 120",
-  "lh2": 100,
+  "lh2": 10,
   "invertY": 100,
-  "sortOrder": 4,
+  "sortOrder": 14,
   "corners": [
     {
       "id": "ne",
@@ -74,21 +74,9 @@
     ["ne","nw"],
     ["nw","sw"],
     ["sw","se"],
-    ["f-sw","nw"],
-    ["f-sw","se"],
-    ["f-se","ne"],
-    ["f-se","sw"],
-    ["se","ne"]
-  ],
-
-  "expectedTall": [
-    ["ne","nw"],
-    ["nw","sw"],
-    ["f-int-1","sw"],
     ["f-int-1","f-sw"],
     ["f-sw","f-se"],
     ["f-int-2","f-se"],
-    ["f-int-2","se"],
     ["ne","se"]
   ]
 }

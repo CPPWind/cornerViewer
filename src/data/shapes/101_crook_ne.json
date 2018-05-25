@@ -1,7 +1,7 @@
 {
   "name": "Crook - NE - High",
-  "sortOrder": 1,
-  "lh2": 100,
+  "sortOrder": 11,
+  "lh2": 10,
   "box": "-10 -10 120 120",
   "invertY": 100,
   "corners": [
@@ -57,15 +57,15 @@
   "expected": [
     [
       "ne",
-      "nw"
-    ],
-    [
-      "ne",
       "c-nw"
     ],
     [
       "c-nw",
       "c-int"
+    ],
+    [
+      "c-int",
+      "nw"
     ],
     [
       "nw",

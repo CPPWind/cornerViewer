@@ -17,7 +17,7 @@ const colors = [
 ]
 
 const IndexPage = ({ data }) => {
-  const roofs = data.allShapesJson.edges.map(edge => new Roof(edge.node).props)
+  const roofs = data.allShapesJson.edges.slice(8).map(edge => new Roof(edge.node).props)
   const cards = roofs.map(roof => <RoofCard roof={roof} key={roof.key} />)
   return (
     <main>
@@ -38,6 +38,7 @@ export const pageQuery = graphql`
           name
           invertY
           box
+          lh2
           corners {
             id
             orientation

@@ -4,8 +4,6 @@ import { rotate, nextIn } from './array'
 import _flattenDepth from 'lodash/flattenDeep'
 import _uniq from 'lodash/uniq'
 
-const halfH = 50
-
 const VALID_ENDPOINT = {
   NorthSouth: {
     ne: ['se', null],
@@ -23,9 +21,9 @@ const VALID_ENDPOINT = {
 
 const delta = (master, candidate, axis) => {
   if (axis === 'NorthSouth') {
-    return deltaX(master, candidate) <= halfH
+    return deltaX(master, candidate) <= master.lh2
   } else {
-    return deltaY(master, candidate) <= halfH
+    return deltaY(master, candidate) <= master.lh2
   }
 }
 
@@ -77,6 +75,8 @@ const smoothCorner = (corners, idx, reverse = false) => {
   const candidates = remaining.filter((candidate, i) => {
     return validEndpoint(master, candidate, axis, direction)
   })
+
+  console.log('smoothCorner',master.id, candidates.map(c => c.id))
   const lengths = remaining.filter((candidate, i) => {
     return validEndpoint(master, candidate, axis, direction)
   })

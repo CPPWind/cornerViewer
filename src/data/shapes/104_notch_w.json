@@ -2,8 +2,8 @@
   "name": "Notch - W - High",
   "box": "-10 -10 120 120",
   "invertY": 100,
-  "lh2": 100,
-  "sortOrder": 3,
+  "lh2": 10,
+  "sortOrder": 13,
   "corners": [
     {
       "id": "ne",
@@ -78,6 +78,10 @@
     [
       "nw",
       "sw"
+    ],
+    [
+      "nw",
+      "n-sw"
     ],
     [
       "n-sw",
