@@ -1,8 +1,9 @@
 {
-  "name": "Crook - SE",
+  "name": "Crook - SE - High",
   "box": "-10 -10 120 120",
+  "lh2": 10,
   "invertY": 100,
-  "sortOrder": 2,
+  "sortOrder": 12,
   "corners": [
     {
       "id": "ne",
@@ -64,15 +65,15 @@
     ],
     [
       "sw",
-      "se"
-    ],
-    [
-      "sw",
       "c-se"
     ],
     [
-      "c-se",
-      "ne"
+      "c-int",
+      "c-se"
+    ],
+    [
+      "c-int",
+      "se"
     ],
     [
       "se",

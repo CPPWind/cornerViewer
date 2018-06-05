@@ -1,8 +1,9 @@
 {
-  "name": "Notch - W",
+  "name": "Notch - W - High",
   "box": "-10 -10 120 120",
   "invertY": 100,
-  "sortOrder": 3,
+  "lh2": 10,
+  "sortOrder": 13,
   "corners": [
     {
       "id": "ne",
@@ -70,13 +71,41 @@
     }
   ],
   "expected": [
-    ["ne","nw"],
-    ["nw","sw"],
-    ["n-sw","n-int-1"],
-    ["n-int-2","n-nw"],
-    ["n-nw","sw"],
-    ["n-sw","nw"],
-    ["sw","se"],
-    ["se","ne"]
+    [
+      "ne",
+      "nw"
+    ],
+    [
+      "nw",
+      "sw"
+    ],
+    [
+      "nw",
+      "n-sw"
+    ],
+    [
+      "n-sw",
+      "n-int-1"
+    ],
+    [
+      "n-int-2",
+      "n-nw"
+    ],
+    [
+      "n-nw",
+      "sw"
+    ],
+    [
+      "n-sw",
+      "nw"
+    ],
+    [
+      "sw",
+      "se"
+    ],
+    [
+      "se",
+      "ne"
+    ]
   ]
 }

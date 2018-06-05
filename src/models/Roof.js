@@ -1,11 +1,12 @@
 import smoother from './Smoother'
 
 class Roof {
-  constructor({ name, invertY, box, corners, expected }) {
+  constructor({ name, invertY, box, corners, lh2, expected }) {
     this.corners = {}
     this.key = name.toLowerCase().replace(/\W+/g, '_')
     this.invertY = invertY
     this.props = {
+      lh2: lh2,
       name: name,
       invertY: invertY,
       box: box,
@@ -77,6 +78,7 @@ class Corner {
       order: order,
       orientation: orientation,
       coordinate: coordinate,
+      lh2: roof.props.lh2,
       point: {
         x: coordinate.x,
         y: roof.invertY - coordinate.y,
