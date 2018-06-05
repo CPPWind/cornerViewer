@@ -1,0 +1,60 @@
+.response {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1em;
+}
+
+h4 {
+  margin: 0;
+}
+.response ul {
+
+  margin: 0;
+  list-style: none;
+}
+
+.response li {
+  text-align: left;
+  margin: 0;
+}
+
+.currentCorner li {
+  margin-bottom: 1rem;
+}
+.bigRoof {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #cdecff;
+}
+
+.bigRoof svg {
+  width: 100%;
+  height: 100%;
+}
+
+.bigRoof rect {
+  fill: lightblue;
+  stroke: black;
+}
+
+.currentCorner {
+
+}
+.double {
+  grid-row: span 2;
+}
+
+.NorthSouth {
+  stroke: darkblue;
+  color: darkblue;
+}
+
+.EastWest {
+  stroke: darkred;
+  color: darkred;
+}
+.cornersList, .currentCorner {
+  padding: 0 1rem;
+}

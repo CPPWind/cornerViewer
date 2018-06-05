@@ -3,7 +3,7 @@
   color: var(--color-card);
   border: thin solid var(--color-card-border);
   border-radius: var(--border-radius-3, .5rem);
-  width: var(--measure);
+  /*width: var(--measure);*/
   padding: var(--spacing-none, 0);
 }
 

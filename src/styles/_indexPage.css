@@ -1,0 +1,22 @@
+.IndexPage {
+  height: 100%;
+}
+
+.IndexPage section {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center;
+}
+
+.IndexPage a {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}

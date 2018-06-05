@@ -1,7 +1,5 @@
 import React from 'react'
-import RoofCard from '../components/RoofCard'
-import Roof from '../models/Roof';
-import Rules from '../components/Rules';
+import Link from 'gatsby-link'
 
 const colors = [
   'white',
@@ -16,42 +14,53 @@ const colors = [
   'black',
 ]
 
-const IndexPage = ({ data }) => {
-  const roofs = data.allShapesJson.edges.map(edge => new Roof(edge.node).props)
-  const cards = roofs.map(roof => <RoofCard roof={roof} key={roof.key} />)
-  return (
-    <main>
-      <div className="cardGrid">
-        {cards}
-      </div>
-      <div className="cardGrid">
-        <Rules />
-      </div>
-    </main>
-  )
+class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      selectedId: '1',
+    }
+    this.selectCorner = this.selectCorner.bind(this)
+  }
+
+  selectCorner(newCornerId) {
+    this.setState({ selectedId: newCornerId })
+  }
+
+  render() {
+    const names = this.props.data.allResponsesJson.edges
+      .map(edge => {
+        return {
+          name: edge.node.name,
+          slug: edge.node.name.replace(/\W/g, ''),
+        }
+      })
+      .map(roof => (
+        <Link to={roof.slug}>
+          <div key={roof.slug} className="roofBadge ma0 br3 pa3 ba bg-blue">
+            {roof.name}
+          </div>
+        </Link>
+      ))
+    return (
+      <main className="IndexPage">
+        <h1 className="tc ma0 bg-dark-blue near-white"> Welcome</h1>
+        <section className="ma0 list">{names}</section>
+      </main>
+    )
+  }
 }
 
 export default IndexPage
 
-export const pageQuery = graphql`
-  query indexShapes {
-    allShapesJson(sort: {fields: [sortOrder]}) {
-      edges {
-        node {
-          name
-          invertY
-          box
-          corners {
-            id
-            orientation
-            coordinate {
-              x
-              y
+export const indexPageQuery = graphql`
+    query indexPageQuery {
+        allResponsesJson {
+            edges {
+                node {
+                    name
+                }
             }
-          }
-          expected
         }
-      }
     }
-  }
 `

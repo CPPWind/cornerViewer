@@ -1,0 +1,796 @@
+{
+    "name": "Dansbury",
+  "meta": {
+    "debug": {},
+    "api_version": "0.12.1",
+    "request_schema_version": "0.7.0",
+    "response_schema_version": "0.4.0",
+    "git_sha1": "04f03d7",
+    "requested_at": "2018-06-05T16:57:00+00:00",
+    "request_id": "76bcb90f-68e1-11e8-ab69-bd2762ee75ea"
+  },
+  "product": {
+    "id": 101,
+    "name": "7979 - SunPower T10 v2.1",
+    "updated_at": "2018-02-06T12:48:30.277-07:00",
+    "created_at": "2017-07-26T07:49:44.540-06:00"
+  },
+  "roof": {
+    "stats": {
+      "panels": 1,
+      "walls": 24,
+      "corners": 24
+    },
+    "walls": [
+      {
+        "id": "1-2-EastWest",
+        "corners": [
+          "1",
+          "2"
+        ],
+        "length": 135.88666779352482,
+        "height": 35
+      },
+      {
+        "id": "2-3-NorthSouth",
+        "corners": [
+          "2",
+          "3"
+        ],
+        "length": 5.910000235006587,
+        "height": 35
+      },
+      {
+        "id": "3-4-EastWest",
+        "corners": [
+          "3",
+          "4"
+        ],
+        "length": 14.130833431621157,
+        "height": 35
+      },
+      {
+        "id": "4-5-NorthSouth",
+        "corners": [
+          "4",
+          "5"
+        ],
+        "length": 6.7900000511373,
+        "height": 35
+      },
+      {
+        "id": "5-6-EastWest",
+        "corners": [
+          "5",
+          "6"
+        ],
+        "length": 49.458333586071326,
+        "height": 35
+      },
+      {
+        "id": "6-7-NorthSouth",
+        "corners": [
+          "6",
+          "7"
+        ],
+        "length": 6.789166717810244,
+        "height": 35
+      },
+      {
+        "id": "7-8-EastWest",
+        "corners": [
+          "7",
+          "8"
+        ],
+        "length": 14.223333430981956,
+        "height": 35
+      },
+      {
+        "id": "8-9-NorthSouth",
+        "corners": [
+          "8",
+          "9"
+        ],
+        "length": 5.9083333921015635,
+        "height": 35
+      },
+      {
+        "id": "9-10-EastWest",
+        "corners": [
+          "9",
+          "10"
+        ],
+        "length": 148.942500755325,
+        "height": 35
+      },
+      {
+        "id": "10-11-NorthSouth",
+        "corners": [
+          "10",
+          "11"
+        ],
+        "length": 81.1708338509317,
+        "height": 35
+      },
+      {
+        "id": "11-12-EastWest",
+        "corners": [
+          "11",
+          "12"
+        ],
+        "length": 6.360000054594702,
+        "height": 35
+      },
+      {
+        "id": "12-13-NorthSouth",
+        "corners": [
+          "12",
+          "13"
+        ],
+        "length": 62.774167020669324,
+        "height": 35
+      },
+      {
+        "id": "13-14-EastWest",
+        "corners": [
+          "13",
+          "14"
+        ],
+        "length": 6.356666666666655,
+        "height": 35
+      },
+      {
+        "id": "14-15-NorthSouth",
+        "corners": [
+          "14",
+          "15"
+        ],
+        "length": 78.87250035658816,
+        "height": 35
+      },
+      {
+        "id": "15-16-EastWest",
+        "corners": [
+          "15",
+          "16"
+        ],
+        "length": 151.6341671154808,
+        "height": 35
+      },
+      {
+        "id": "16-17-NorthSouth",
+        "corners": [
+          "16",
+          "17"
+        ],
+        "length": 6.011667590795594,
+        "height": 35
+      },
+      {
+        "id": "17-18-EastWest",
+        "corners": [
+          "17",
+          "18"
+        ],
+        "length": 14.128334537572202,
+        "height": 35
+      },
+      {
+        "id": "18-19-NorthSouth",
+        "corners": [
+          "18",
+          "19"
+        ],
+        "length": 6.7866668713162985,
+        "height": 35
+      },
+      {
+        "id": "19-20-EastWest",
+        "corners": [
+          "19",
+          "20"
+        ],
+        "length": 48.59666667381165,
+        "height": 35
+      },
+      {
+        "id": "20-21-NorthSouth",
+        "corners": [
+          "20",
+          "21"
+        ],
+        "length": 6.785833538008098,
+        "height": 35
+      },
+      {
+        "id": "21-22-EastWest",
+        "corners": [
+          "21",
+          "22"
+        ],
+        "length": 14.211666691098863,
+        "height": 35
+      },
+      {
+        "id": "22-23-NorthSouth",
+        "corners": [
+          "22",
+          "23"
+        ],
+        "length": 6.01500005772607,
+        "height": 35
+      },
+      {
+        "id": "23-24-EastWest",
+        "corners": [
+          "23",
+          "24"
+        ],
+        "length": 134.05666724944257,
+        "height": 35
+      },
+      {
+        "id": "24-1-NorthSouth",
+        "corners": [
+          "24",
+          "1"
+        ],
+        "length": 222.81416816424002,
+        "height": 35
+      }
+    ],
+    "corners": [
+      {
+        "id": "1",
+        "orientation": "Southwest",
+        "interior": false,
+        "coordinate": {
+          "x": -181.33249999999998,
+          "y": -111.39,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "1-24-NorthSouth",
+            "corners": [
+              "1",
+              "24"
+            ],
+            "length": 222.81416816424002,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "1-10-EastWest",
+            "corners": [
+              "1",
+              "10"
+            ],
+            "length": 362.6391686927087,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "2",
+        "orientation": "Southeast",
+        "interior": false,
+        "coordinate": {
+          "x": -45.44583333333333,
+          "y": -111.40750000000001,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "2-23-NorthSouth",
+            "corners": [
+              "2",
+              "23"
+            ],
+            "length": 222.8264707151933,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "2-1-EastWest",
+            "corners": [
+              "2",
+              "1"
+            ],
+            "length": 135.88666779352482,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "3",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": -45.4475,
+          "y": -105.4975,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "4",
+        "orientation": "Southeast",
+        "interior": false,
+        "coordinate": {
+          "x": -31.316666666666666,
+          "y": -105.49916666666667,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "4-23-NorthSouth",
+            "corners": [
+              "4",
+              "23"
+            ],
+            "length": 217.4952430019384,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "4-1-EastWest",
+            "corners": [
+              "4",
+              "1"
+            ],
+            "length": 150.1314496301676,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "5",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": -31.315833333333334,
+          "y": -98.70916666666666,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "6",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": 18.142500000000002,
+          "y": -98.71416666666666,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "7",
+        "orientation": "Southwest",
+        "interior": false,
+        "coordinate": {
+          "x": 18.141666666666666,
+          "y": -105.50333333333333,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "7-16-NorthSouth",
+            "corners": [
+              "7",
+              "16"
+            ],
+            "length": 217.21234029330478,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "7-10-EastWest",
+            "corners": [
+              "7",
+              "10"
+            ],
+            "length": 163.27254162901974,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "8",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": 32.365,
+          "y": -105.505,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "9",
+        "orientation": "Southwest",
+        "interior": false,
+        "coordinate": {
+          "x": 32.36416666666667,
+          "y": -111.41333333333334,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "9-16-NorthSouth",
+            "corners": [
+              "9",
+              "16"
+            ],
+            "length": 222.83101675435083,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "9-10-EastWest",
+            "corners": [
+              "9",
+              "10"
+            ],
+            "length": 148.942500755325,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "10",
+        "orientation": "Southeast",
+        "interior": false,
+        "coordinate": {
+          "x": 181.30666666666664,
+          "y": -111.42833333333334,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "10-15-NorthSouth",
+            "corners": [
+              "10",
+              "15"
+            ],
+            "length": 222.81833423092553,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "10-1-EastWest",
+            "corners": [
+              "10",
+              "1"
+            ],
+            "length": 362.6391686927087,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "11",
+        "orientation": "Northeast",
+        "interior": false,
+        "coordinate": {
+          "x": 181.31583333333333,
+          "y": -30.257499999999997,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "11-10-NorthSouth",
+            "corners": [
+              "11",
+              "10"
+            ],
+            "length": 81.1708338509317,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "11-12-EastWest",
+            "corners": [
+              "11",
+              "12"
+            ],
+            "length": 6.360000054594702,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "12",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": 174.95583333333332,
+          "y": -30.256666666666664,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "13",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": 174.9625,
+          "y": 32.5175,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "14",
+        "orientation": "Southeast",
+        "interior": false,
+        "coordinate": {
+          "x": 181.31916666666666,
+          "y": 32.5175,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "14-15-NorthSouth",
+            "corners": [
+              "14",
+              "15"
+            ],
+            "length": 78.87250035658816,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "14-13-EastWest",
+            "corners": [
+              "14",
+              "13"
+            ],
+            "length": 6.356666666666655,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "15",
+        "orientation": "Northeast",
+        "interior": false,
+        "coordinate": {
+          "x": 181.32666666666668,
+          "y": 111.39,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "15-10-NorthSouth",
+            "corners": [
+              "15",
+              "10"
+            ],
+            "length": 222.81833423092553,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "15-24-EastWest",
+            "corners": [
+              "15",
+              "24"
+            ],
+            "length": 362.6333349428945,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "16",
+        "orientation": "Northwest",
+        "interior": false,
+        "coordinate": {
+          "x": 29.6925,
+          "y": 111.40166666666666,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "16-9-NorthSouth",
+            "corners": [
+              "16",
+              "9"
+            ],
+            "length": 222.83101675435083,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "16-15-EastWest",
+            "corners": [
+              "16",
+              "15"
+            ],
+            "length": 151.6341671154808,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "17",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": 29.689166666666665,
+          "y": 105.39,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "18",
+        "orientation": "Northwest",
+        "interior": false,
+        "coordinate": {
+          "x": 15.560833333333333,
+          "y": 105.39583333333333,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "18-9-NorthSouth",
+            "corners": [
+              "18",
+              "9"
+            ],
+            "length": 217.45934507812157,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "18-15-EastWest",
+            "corners": [
+              "18",
+              "15"
+            ],
+            "length": 165.8741738026816,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "19",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": 15.559166666666668,
+          "y": 98.60916666666667,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "20",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": -33.0375,
+          "y": 98.61,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "21",
+        "orientation": "Northeast",
+        "interior": false,
+        "coordinate": {
+          "x": -33.03916666666667,
+          "y": 105.39583333333333,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "21-2-NorthSouth",
+            "corners": [
+              "21",
+              "2"
+            ],
+            "length": 217.15803167790554,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "21-24-EastWest",
+            "corners": [
+              "21",
+              "24"
+            ],
+            "length": 148.39000087279388,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "22",
+        "orientation": null,
+        "interior": true,
+        "coordinate": {
+          "x": -47.25083333333333,
+          "y": 105.39666666666666,
+          "z": 35
+        },
+        "walls": {}
+      },
+      {
+        "id": "23",
+        "orientation": "Northeast",
+        "interior": false,
+        "coordinate": {
+          "x": -47.25,
+          "y": 111.41166666666668,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "23-2-NorthSouth",
+            "corners": [
+              "23",
+              "2"
+            ],
+            "length": 222.8264707151933,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "23-24-EastWest",
+            "corners": [
+              "23",
+              "24"
+            ],
+            "length": 134.05666724944257,
+            "height": 35
+          }
+        }
+      },
+      {
+        "id": "24",
+        "orientation": "Northwest",
+        "interior": false,
+        "coordinate": {
+          "x": -181.30666666666664,
+          "y": 111.42416666666666,
+          "z": 35
+        },
+        "walls": {
+          "NorthSouth": {
+            "id": "24-1-NorthSouth",
+            "corners": [
+              "24",
+              "1"
+            ],
+            "length": 222.81416816424002,
+            "height": 35
+          },
+          "EastWest": {
+            "id": "24-15-EastWest",
+            "corners": [
+              "24",
+              "15"
+            ],
+            "length": 362.6333349428945,
+            "height": 35
+          }
+        }
+      }
+    ],
+    "panels": [
+      {
+        "id": "1",
+        "corners": [
+          "16",
+          "18",
+          "24",
+          "15",
+          "10",
+          "1",
+          "7",
+          "9"
+        ],
+        "walls": [
+          "12-13-NorthSouth",
+          "24-1-NorthSouth",
+          "9-10-EastWest",
+          "15-16-EastWest"
+        ]
+      }
+    ]
+  }
+}
