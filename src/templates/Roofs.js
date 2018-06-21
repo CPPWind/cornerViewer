@@ -19,10 +19,10 @@ const colors = [
 class Roofs extends React.Component {
   constructor(props) {
     super(props)
-    console.log('Roofs', props)
+    const roof = this.props.data.allResponsesJson.edges[0].node.roof
 
     this.state = {
-      selectedId: this.props.data.allResponsesJson.edges[0].node.roof.corners[0].id,
+      selectedId: roof.corners.filter(c => c.orientation)[0].id,
     }
     this.selectCorner = this.selectCorner.bind(this)
   }
@@ -32,7 +32,8 @@ class Roofs extends React.Component {
   }
 
   render() {
-    const corners = this.props.data.allResponsesJson.edges[0].node.roof.corners
+    const roof = this.props.data.allResponsesJson.edges[0].node.roof
+    const corners = roof.corners
     const selected = corners.find(c => c.id === this.state.selectedId)
     return (
       <main className="response">

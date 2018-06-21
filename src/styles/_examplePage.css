@@ -1,0 +1,12 @@
+.ExamplePage {
+  width: 100%; /* .w-100 */
+  height: 100%; /* .h-100 */
+  background-color: var(--light-blue); /* .bg-light-blue */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  & > div {
+    padding: var(--spacing-large); /* .pa4 */
+    width: 100%; /* .w-100 */
+    height: 100%; /* .h-100 */
+  }
+}
