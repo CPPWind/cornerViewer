@@ -17,15 +17,13 @@ const colors = [
 ]
 
 const TestingPage = ({ data }) => {
-  const roofs = data.allShapesJson.edges.slice(11,12).map(edge => new Roof(edge.node).props)
+  console.log(data)
+  const roofs = data.allShapesJson.edges.map(edge => new Roof(edge.node).props)
   const cards = roofs.map(roof => <RoofCard roof={roof} key={roof.key} />)
   return (
     <main>
       <div className="cardGrid">
         {cards}
-      </div>
-      <div className="cardGrid">
-        <Rules />
       </div>
     </main>
   )

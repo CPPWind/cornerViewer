@@ -17,7 +17,7 @@
       "id": "c-nw",
       "orientation": "nw",
       "coordinate": {
-        "x": 80,
+        "x": 84,
         "y": 100
       }
     },
@@ -25,8 +25,8 @@
       "id": "c-int",
       "orientation": null,
       "coordinate": {
-        "x": 80,
-        "y": 80
+        "x": 84,
+        "y": 84
       }
     },
     {
@@ -34,7 +34,7 @@
       "orientation": "nw",
       "coordinate": {
         "x": 0,
-        "y": 80
+        "y": 84
       }
     },
     {
