@@ -11,7 +11,7 @@
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-json": "^1.0.18",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "react-helmet": "^5.2.0",
     "typography-theme-alton": "^0.15.10",
     "typography-theme-github": "^0.15.10"
